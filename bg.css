@@ -1,0 +1,33 @@
+.bg {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.bg video {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.bg-txt {
+    color: red;
+    z-index: 2;
+}
+.in {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+}
