@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Wet+Paint&display=swap');
+
+
+body{
+    font-family: Rubik Wet Paint ;
+    background: linear-gradient(90deg, #1500ff 0%, #1a539e 28%, #182b57 78%, #090613 101%);
+}
+p{
+    color: aquamarine;
+}
+
+
+.nav-link{
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active{
+    color: #743eb5;
+}
+.navbar-brand img{
+    width: 40px; ;
+}
+.sidebar{
+    color: aquamarine;
+   
+    background: linear-gradient(270deg, #1500ff 0%, #1a539e 28%, #182b57 78%, #090613 101%);     
+}
+
+.card{
+     background: linear-gradient(270deg, #1500ff 0%, #1a539e 28%, #182b57 78%, #090613 101%);     
+color: aquamarine;
+}
+.card a{
+ text-decoration: none;
+    color:aquamarine;
+}
+.slide-text,
+.f-tekst {
+color: rgb(255, 0, 0); 
+margin: auto auto;   
+}
+
+footer,
+.btn-outline-danger{
+    background: linear-gradient(270deg, #1500ff 0%, #1a539e 28%, #182b57 78%, #090613 101%);     
+
+}
+
+.flex-footer{
+display: flex;
+justify-content: center;
+text-align: center;    
+}
+.img-anim{
+    animation: myAnim 4s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 100 normal forwards;    
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+@media (max-width: 754) { 
+.carousel-indicators{
+display: none;    
+}    
+}
